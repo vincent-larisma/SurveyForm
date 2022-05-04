@@ -12,9 +12,40 @@
 
         <div id="description"><p></p></div>
 
-        <form id="survey-form">
+        <form id="survey-form" autocomplete="off" method="get">
 
-            <!-- user story 4- -->
+            <div><label for="name" id="name-label"></label>
+            <input type="text" name="name" id="name" required placeholder="Name"></div>
+
+            <div><label for="email" id="email-label"></label>
+            <input type="email" name="email" id="email" required placeholder="Email"></div>
+
+            <div><label for="number" id="number-label"></label>
+                <input type="number" name="number" id="number" min="1" max="99" placeholder="Number"></div>
+            <div>
+                <select id="dropdown">
+                    
+                </select>
+            </div>
+            <div>
+                <label for="male"> <input type="radio" name="gender" id="male"> Male</label>
+                
+                <label for="female"><input type="radio" name="gender" id="female"> Female</label>
+                
+            </div>
+            <div>
+                <label for="loving"><input id="loving" type="checkbox" name="personality" value="loving"> Loving</label>
+
+                <label for="lazy"><input id="lazy" type="checkbox" name="personality" value="lazy"> Lazy</label>
+
+                <label for="energetic"><input id="energetic" type="checkbox" name="personality" value="energetic"> Energetic</label>
+            </div>
+            <div>
+                <label for="comments">Comments:</label><br>
+                <textarea id="comments"></textarea>
+            </div>
+            <button id="submit" type="button">Submit</button>
+            
         </form>
 
 
