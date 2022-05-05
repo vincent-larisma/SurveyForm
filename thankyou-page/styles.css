@@ -1,0 +1,23 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+html{
+    background: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: 'Raleway', sans-serif;
+}
+
+.div-container {
+    max-width: 500px;
+    margin: 2rem auto;
+    padding-top: 15rem;
+    text-align: center;
+    font-weight: bold;
+    font-size: 3rem;
+    opacity: 80%;
+}

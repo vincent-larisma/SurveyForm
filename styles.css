@@ -1,0 +1,151 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+    font-family: 'Raleway', sans-serif;
+}
+.header-div {
+    padding-top: 3rem;
+    margin: 2rem auto;
+    margin-bottom: -1rem;
+    max-width: 450px;
+    text-align: center;
+    line-height: 2rem;
+    font-size: larger;
+}
+
+#title {
+    letter-spacing: 10px;
+}
+
+#description {
+    color: white;
+    font-weight: bold;
+    word-spacing: 2px;
+}
+
+.main-div {
+    padding: 2rem;
+    border-radius: 1rem;
+    margin: 2rem auto;
+    max-width: 450px;
+    background: white;
+    box-shadow: 0px 0px 15px rgba(0,0,0,.20);
+    margin-bottom: 10rem;
+    
+}
+.gender-title{
+    display: block;
+    padding: 1rem 0;
+}
+
+label {
+    display: block;
+    padding: .5rem .5rem .5rem 0;
+}
+
+input, textarea, button {
+    padding: 10px;
+    width: 100%;
+    border-radius: .5rem;
+    border: 1px solid black;
+}
+textarea {
+    display: block;
+    resize: none;
+    height: 200px;
+    width: 350x;
+}
+input.gender-div {
+    width: auto;
+}
+button {
+    display: flex;
+    margin: 2rem auto;
+    width: 80%;
+    justify-content: center;
+    text-transform: uppercase;
+    background: #2C73D2;
+    border: 0;
+    border-radius: 1rem;
+    cursor: pointer;
+    position: relative;
+    transition: .2s, transform 300ms;
+    color: white;
+}
+button:hover {
+    transform: scale(1.1); 
+    background:#7fe7e0;
+}
+
+.checkbox-container {
+    padding-top: .5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* main {
+    margin-top: 5rem;
+    
+}
+
+.header-div {
+    padding-top: 2rem;
+    width: 100%;
+    margin: 0px auto;
+    max-width: 350px;
+    text-align: center; 
+    line-height: 2rem;
+    margin-bottom: 1rem ;
+    
+    
+}
+div#title {
+    font-weight: 700;
+    font-size: 2em;
+}
+div#description {
+    font-style: italic;
+    font-size: 1.2em;
+}
+
+
+.main-div {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 0px auto;
+    background-color: white;
+    max-width: 350px;
+    border-radius: 2rem;
+    padding-top: 4rem;
+    padding-bottom: 5rem;
+    color: black;
+    opacity: 100%;
+    border: 1px solid gray;
+    overflow: hidden;
+} */
